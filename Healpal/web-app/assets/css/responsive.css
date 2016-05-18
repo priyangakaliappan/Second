@@ -1,0 +1,481 @@
+/*
+Theme Name: Cancer Bootstrap
+Description: A theme built for Oceanbrains
+Author: Mian Zaid Bin Khalid
+Author URI: http://oceanbrains.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+*/
+
+@media (max-width:360px)
+{
+	.logo_img_box {
+		margin: 0px auto;
+	}
+	.pending-cases .btn{
+		font-size:11px;
+	}
+}
+
+@media (max-width:480px)
+{
+		.second_header_text
+	{
+		font-size:16px !important;
+	}
+
+	.social_icon img
+	{
+		width:100%;
+	}
+	h1{
+		font-size:24px !important;
+	}
+	.pending-cases .btn{
+		padding:6px 4px;
+		font-size:12px;
+	}
+}
+
+@media (max-width:600px)
+{
+	.top-nav
+	{
+		width:100%;
+		position:relative;
+		left:0px !important;
+	}
+	.res_fix
+	{
+		display:block !important;
+	}
+/*	.none
+	{
+		display:none !important;
+	}*/
+	.logo_img_box img
+	{
+		left:39% !important;
+		width:60px !important;
+		height:60px !important;
+	}
+	#carousel .carousel-caption strong{
+		font-size:16px;
+	}
+	.second_header_text
+	{
+		width:100%;
+		clear:both !important;
+	}
+	.border-box h2{
+		text-align:center !important;
+	}
+	.verifications b, .verifications p{
+		text-align:center !important;
+		display:block;
+	}
+}
+
+@media (max-width:768px)
+{
+	
+	.second_header a img
+	{
+		height:115px !important;
+	}
+	.navbar .navbar-collapse
+	{
+		padding-left:15px;
+	}
+	.navbar-nav > li, .navbar-nav > li> a
+	{
+		/*width:100% !important;*/
+		margin-bottom:0px !important;
+		border:none !important;
+	}
+	.top-nav
+	{
+		left:35%;
+	}
+	#carousel .carousel-caption
+	{
+		left:0px !important;
+	}
+	.logo_img_box img
+	{
+		left:31%;
+		width:160px;
+		height:156px;
+	}
+	.navbar-header
+	{
+		background:rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(73, 73, 73, 1) 0%, rgba(28, 28, 28, 1) 100%) repeat scroll 0 0;
+	}	
+	.navbar-nav > li > a,
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus	
+	{
+		background:none;
+	}
+	.navbar-nav-fix .navbar-nav > li > a
+	{
+		text-align:center !important;
+	}
+	.navbar .navbar-collapse
+	{
+		padding-left:15px !important;
+	}
+	.second_header_text
+	{
+/*		display:block;*/
+		font-size:20px;
+	}
+	.footer_main_nav_box ul.footer_main_nav li
+	{
+		width:100%;
+		padding:5px 0px;
+		background:rgba(255,255,255,0.5);
+		margin:1px 0px;
+	}
+	.footer_main_nav_box ul.footer_main_nav li a
+	{
+		border:none;
+	}
+	.footer_content ul.footer_bottom_nav li
+	{
+		width:100%;
+		padding:5px 0px;
+		margin:1px 0px;
+		border-bottom:1px solid #333;
+	}
+	.footer_content ul.footer_bottom_nav li a
+	{
+		background:none;
+	}
+	.center-img{
+		margin:0 auto 10px auto !important;
+	}
+	.expert-steps ul li{
+		width:100% !important;
+	}
+	.choose-expert-in-request .filter{
+		text-align:center;
+	}
+	.choose-expert-in-request .filter .checkbox-row{
+		padding-top:0px !important;
+	}
+	.join-expert-block .join-expert{
+		text-align:center;
+	}
+	.hiw .links-bottom-fix .btn-link{
+		position:relative !important;
+	}
+	.profile .my-left .box:after{
+		display:none;
+	}	
+}
+
+@media (max-width:990px)
+{
+	#carousel .carousel-caption
+	{
+		font-size:26px;
+	}
+	.footer_container
+	{
+		width:100%;
+		padding:0px 10px;
+	}
+	.navbar-nav > li
+	{
+		/*width:50%;*/
+		margin-bottom:10px;
+	}
+	/*.navbar-nav > li:nth-child(2) a{
+		border-right:none;
+	}*/
+	/*.navbar .navbar-collapse
+	{
+		padding-left:9% !important;
+	}*/	
+	.about-us .box2 span{
+		font-size:16px !important;
+	}
+	.pending-cases ul li{
+		width:50% !important;
+	}
+	.expert-summary p{
+		min-height:65px !important;
+	}
+	#provider_content{
+		padding:0px !important;
+	}
+	
+}
+@media (max-width:1050px)
+{
+	
+}
+@media (max-width:1200px)
+{
+	.second-nav .navbar-collapse
+	{
+		padding-left:0px !important;
+		overflow:hidden;
+	}
+	#carousel .carousel-caption
+	{
+		left: 0%;
+		top: 8%;
+		width: 100%;
+	}
+	
+	.container
+	{
+		width:100% !important;
+/*		padding-left:2px !important;
+		padding-right:2px !important;*/
+	}
+	.center-img{
+		margin:0px;
+	}
+	
+	#provider_content .top .left{
+		width:100% !important;
+		margin-right:0px !important;
+	}
+	#provider_content .top .right{
+		width:100% !important;
+	}
+}
+
+@media (max-width:1280px)
+{
+}
+
+@media (max-width:1900px)
+{
+	.res_fix
+	{
+		display:none;
+	}
+	.about-us .box2 span{
+		font-size:14px;
+	}
+	.expert-steps ul li{
+		width:20%;
+	}
+	.choose-expert-in-request .filter .checkbox-row{
+		padding-top:6px;
+	}
+	.navbar-nav-fix .navbar-nav > li > a
+	{
+		padding:10px 10px;
+		font-size:18px;
+	}
+	.border-box h2{
+		text-align:left;
+	}
+	/*.navbar-nav > li > a
+	{
+		font-size:17px !important;
+	}*/
+	.navbar-nav {
+        margin: 0 auto !important;
+        display: table;
+        table-layout: auto;
+        float: none !important;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        /*display: table-cell !important;*/
+        float: none !important;
+        text-align: center;
+    }
+	.hiw .links-bottom-fix .btn-link{
+		position:absolute;
+		color:#f26522;
+	}
+	.expert-steps ul li a{
+		font-size:12px;
+		font-weight:bold;
+		color:#333;
+	}
+	.pending-cases ul li{
+		float:left;
+		list-style:none;
+		width:25%;
+	}
+	.pending-cases ul li a{
+		font-size:14px;
+		font-weight:normal;
+	}
+	.expert-summary .btn{
+		margin-bottom:20px;
+	}
+	.expert-summary p{
+		min-height:80px;
+		margin-bottom:0px;
+	}
+	.profile .my-left .box:after{
+		content:"";
+		position:absolute;
+		bottom:-40px;
+		height: 40px;
+		left:0px;
+		width:100%;
+		background:url(../images/box-bottom.png) no-repeat;
+		background-size:contain;
+	}
+	#provider_content{
+		padding:10px;
+	}
+	#provider_content .top .left{
+		width:30%;
+		margin-right:3%;	
+		float:left;
+	}
+	#provider_content .top .right{
+		float:left;
+		width:67%;
+	}
+	#provider_content .top .right .dl-horizontal dt{
+		width:180px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px)
+{
+	.new-index .navbar-header{
+		padding:0px;
+		width:100%;
+	}
+		.new-index .navbar-header .logo img{
+			margin:0 auto;		
+		}
+	.new-index .navbar-brand{
+		float:left !important;
+	}
+	.new-index .navbar-nav{
+		margin-top:30px !important;
+		width:100%;
+	}
+	.new-index .navbar-nav > li{
+		display:inline-block;
+	}
+	.new-index .navbar-nav > li:nth-child(3){
+		border-radius:15px;
+		-o-border-radius:15px;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		background-color:transparent;
+		color:#fff;
+		margin-top:5px;
+	}
+	.new-index .navbar-nav > li:nth-child(3) a{
+		padding:4px 20px !important;
+	}
+	.new-index .navbar-nav > li:nth-child(4){
+		border-radius:15px;
+		-o-border-radius:15px;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		background-color:transparent;
+		color:#fff;
+		margin:5px 0 0 10px;
+	}
+	.new-index .navbar-nav > li:nth-child(4) a{
+		padding:4px 20px !important;
+	}
+	
+	.new-index .jumbotron{
+		background-color:#f37021 !important;
+		text-align:center;
+		color:#fff;
+		border-radius:0px !important;
+		-o-border-radius:0px !important;
+		-webkit-border-radius:0px !important;
+		-moz-border-radius:0px !important;
+	}
+	.new-index .jumbotron h2{
+		margin-bottom:15px;
+		color:#fff;
+		font-weight:bold;
+	}
+	.new-index .jumbotron h4{
+		color:#fff;
+	}
+	.new-index .index-content .block p{
+		width:70%;
+	}
+	.new-index .index-content .block2{
+		width:70%;
+	}
+	.new-index .index-content .block2 p{
+		width:70%;
+	}
+	.new-index .block2-inner{
+		width:80%;
+	}
+		.new-index .block2-inner .media-object{
+			width:70px;
+		}
+	.new-index .block3 .block3-inner{
+		width:70%;
+	}
+		
+	.new-index .block3 .left{
+		
+	}
+	.new-index .footer-top{
+		text-align:left;
+	}
+	.new-index .block3 .right{
+		text-align:left;
+	}
+	.new-index .block3 .right h1{
+		text-align:left;
+	}
+	.new-index .apps-link ul li{
+		width:auto;
+		margin:0 10px 10px 0px;
+	}
+	.new-index .footer-bottom .left{
+		float:left;
+		text-align:left;
+		margin-top:8px;
+	}
+	.new-index .footer-bottom .right{
+		float:right;
+	}
+	.new-index .footer-bottom .right ul{
+		text-align:left;
+	}
+}
+@media (min-width:992px)
+{
+	.new-index .navbar-header{
+		width:auto;
+	}
+		.new-index .navbar-header .logo img{
+			margin:0px;		
+		}
+	.new-index .navbar-nav{
+		width:auto;
+	}
+}

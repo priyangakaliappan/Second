@@ -1,0 +1,649 @@
+/*****************css of breast cancer*****************/
+/*body{
+	font-family: 'Open Sans', sans-serif !important;
+	overflow-x:hidden;
+}
+.breast-cancer .container{
+	max-width:1170px;
+	width:100%;
+}
+.orange-bre{
+	color:#f37021;
+}*/
+.head-inner .media-heading a,
+.head-inner .media-left a
+{
+	padding-top:45px;
+	display:block;
+	text-decoration:none;
+}
+ol, ul { padding:0px;}
+/*****************breast about start*****************/
+.inner-cont em{
+	position: absolute;
+	z-index: 0;
+	top: 583px;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background: #ffffff;
+}
+#em2{
+	display:none;
+}
+.inner-cont{
+	background-color:#f37021;
+	overflow:hidden;
+	margin:-54px 0px 0px 0px;
+}
+	.inner-cont .container{
+		background:none;
+	}
+.inner-cont .inner-left-cont{
+	padding:30px 0 ;
+}
+	.inner-cont .inner-left-cont .media-body{
+		color:#fff;
+		font-size:18px;
+		font-family: 'Opensans Light';
+	}
+		.inner-cont .inner-left-cont .media-heading{
+			color:#fff;
+			border-bottom:1px solid #fff;
+			font-size:28px;
+			padding-bottom:5px;
+		}
+			.inner-cont .inner-left-cont .media-heading a{
+				color:#fff; line-height:50px;
+			}
+		.inner-cont .inner-left-cont .media-object{
+			width:40px;
+		}
+	.inner-cont .left-icons2{
+		margin-top:30px;
+	}
+		.inner-cont .left-icons2 ul li {
+			display: inline-block;
+			list-style: outside none none;
+			margin-bottom: 10px;
+			text-align: center;
+			width: 32%;
+			float:left;
+		}
+			.inner-cont .left-icons2 ul li img{
+				margin:0 auto;
+			}
+	.inner-cont .right{
+		background-color:#fff;
+		position:relative;
+		z-index:1;
+		/*padding:40px 0;*/
+	}
+	
+	
+	
+	.cancer-grey-right-img{
+		margin:0 auto;
+	}
+	
+	
+/*****************breast about end*****************/
+
+/*****************timeline-start*****************/
+.mytimeline{
+	position:relative;
+	padding:0px;
+	margin:0px;
+}
+	/*.mytimeline:before{
+		top: 0;
+		bottom: 2px;
+		position: absolute;
+		content: " ";
+		width: 4px;
+		background-color: #d1d1d1;
+		left: 10%;
+		margin-left: -1.5px;
+		z-index:-1;
+	}*/
+	.mytimeline li{
+		list-style:none;
+		margin-bottom:20px;
+		width:100%;
+	}
+		.mytimeline li a{
+			color:#141414;
+			text-transform:uppercase;
+		}
+		.mytimeline li:hover a, .mytimeline li.selected a {
+			color:#f37021;	
+		}
+		.mytimeline .badge2{
+			float:left;
+			/*margin-right:15px;
+			width:20%;*/
+		}
+		.mytimeline .badge3{
+			float:left;
+			margin-right:15px;
+			/*width:20%;*/
+		}
+			.mytimeline .badge2 img{
+				width:60px;
+				height:60px;
+			}
+			.mytimeline .badge3 img{
+				width:60px;
+				height:60px;
+			}
+		.mytimeline .badge2-name{
+			float:left;
+			font-size:16px;
+			margin-top:0px;
+			width:70%;
+			/*width:255px;*/
+		}
+		
+		.mytimeline .badge3-name{
+			float:left;
+			font-size:16px;
+			margin-top:0px;
+			width:70%;
+			/*width:255px;*/
+		}
+/*****************timeline end*****************/
+
+/*****************footer start*****************/
+.footer-breast{
+	position:relative;
+	z-index:2;
+	background-color:#f6f6f6;
+	padding-top:30px;
+}
+	.footer-breast .container{
+		background:none;
+	}
+	.five-col{
+		width:100%;
+		float:left;
+		padding:0 15px;
+	}
+	.footer-breast h5 {
+		color:#393939;
+		margin-bottom:30px;	
+	}
+	.footer-breast li{
+		line-height:1.5;
+		list-style:none;
+	}
+		.footer-breast li a{
+			color:#838383;	
+		}
+		.footer-breast li a:hover{
+			color:#F37021;
+		}
+	.footer-bottom{
+		background-color:#ededed;
+		padding:20px 0;	
+	}
+		.footer-bottom .block1{
+			text-align:center;
+			color:#636363;
+			margin-bottom:10px;
+		}
+		.footer-bottom .block2 .left{
+			width:100%;
+			text-align:center;
+			color:#636363;
+		}
+		.footer-bottom .block2 .right{
+			margin-top:10px;
+		}
+			.footer-bottom .block2 .right .social-icons{
+				width:100%;	
+			}
+				.footer-bottom .block2 .right .social-icons ul{
+					width:100%;
+					text-align:center;
+				}
+			.footer-bottom .block2 .right .social-icons ul li{
+				display:inline-block;
+				list-style:none;
+				background-color:#fff;
+				width:30px;
+				height:30px;
+				line-height:30px;
+				text-align:center;
+				border-radius:50%;
+				-o-border-radius:50%;
+				-webkit-border-radius:50%;
+				-moz-border-radius:50%;
+				margin-left:10px;
+			}
+/*****************footer end*****************/
+
+
+/****************************************************************************************************************************************
+													understanding-numbers start
+****************************************************************************************************************************************/
+.numbers-b{
+	background-color:#f1f1f1;
+}
+	.numbers-b .left{
+		padding:30px 0;
+	}
+		.numbers-b .left h2 a{
+			color:#ff6633;
+			padding-bottom:10px;
+			border-bottom:1px solid #ccc;
+			font-size:26px;
+			display:block;
+		}
+			.grey-page-left .mytimeline:before{
+				z-index:1;
+				left:12%;
+			}
+		.numbers-b .left .mytimeline .badge2{
+			position:relative;
+			z-index:2;
+			/*width:22%;*/
+			width:auto;
+		}
+		.numbers-b .left .mytimeline .badge2-name{
+			text-transform:uppercase;
+			position:relative;
+			z-index:2;
+			/*margin-top:18px;
+			width:255px;*/
+			margin-top:0px;
+			width:72%;
+		}
+		.numbers-b .left .mytimeline .badge3-name{
+			text-transform:uppercase;
+			position:relative;
+			z-index:2;
+			/*margin-top:18px;
+			width:255px;*/
+			margin-top:0px;
+			width:72%;
+		}
+		.numbers-b .left .mytimeline .active a{
+			color:#ff6633;
+		}
+			.numbers-b .left .mytimeline a{
+				color:#141414;
+			}
+	.numbers-b .next-section{
+		margin-top:40px;
+		padding-bottom:15px;
+		border-bottom:1px solid #ccc;
+		border-top:1px solid #ccc;
+	}	
+		.numbers-b .next-section .left{
+			float:left;	
+			padding:0px;
+		}
+		.numbers-b .next-section h2{
+			padding-bottom:15px;
+			border-bottom:none;
+			margin-bottom:0px;
+		}
+		.numbers-b .next-section .right{
+			background:none;
+			padding:20px 0 0 0 ;
+			float:right;
+		}
+			.numbers-b .next-section .right a{
+				color:#ff6633;
+			}
+			.numbers-b .next-section .right .fa{
+				border-radius:50%;
+				-o-border-radius:50%;
+				-webkit-border-radius:50%;
+				-moz-border-radius:50%;
+				border:1px solid #666;
+				width:50px;
+				height:50px;
+				line-height:50px;
+				text-align:center;
+			}
+	.numbers-b .left-icons2{
+		margin-top:20px;
+	}
+		.numbers-b .left-icons2 img{
+			width:50px;
+		}
+	/*.numbers-b em{
+		right:-38.3%;
+		display:none;
+	}*/
+	#em{
+		display:none;
+	}
+	.numbers-b .right{
+		/*padding-left:15px;
+		padding-top:30px;*/
+		padding:10px;
+		color:#8e8e8d;
+	}
+		.numbers-b .right h2{
+			font-size:26px;
+			margin-bottom:30px;
+			color:#8e8e8d;
+			text-transform:uppercase;
+		}
+	.videos .media{
+		border:1px solid #ccc;
+		border-bottom:none;
+		padding:10px;
+		margin-top:0px;
+	}
+		.videos .media:last-child{
+			border:1px solid #ccc;
+		}
+		.videos .media-body{
+			width:100%;
+		}
+		.videos .media-heading{
+			font-size:16px;
+			color:#f15922;	
+		}
+			.videos .media p{
+				margin:0px;
+			}
+			.videos .time{
+				float:right;
+			}
+	.numbers-b .comments-input{
+		margin-top:40px;
+		border:1px solid #ccc;
+		background-color:#efefef;
+		padding:10px 0;
+		border-radius:4px;
+		-o-border-radius:4px;
+		-moz-border-radius:4px;-webkit-border-radius:4px;
+	}
+		.numbers-b .comments-input img {
+			float:left;
+			margin-right:15px;
+		}
+			.numbers-b .comments-input form{
+				float:left;
+				width:100%;
+			}
+	.numbers-b .comments{
+		margin-bottom:30px;
+	}
+	.numbers-b .comments h4{
+		color:#749fd2;	
+		font-weight:bold;
+	}
+		.numbers-b .comments h4 span{
+			color:#bbb;	
+			font-size:12px;
+			margin-left:10px;
+			font-weight:normal;
+		}
+/****************************************************************************************************************************************
+													understanding-numbers end
+****************************************************************************************************************************************/
+.involve-healpal{
+	border:1px solid #ccc;
+	padding:20px 10px;	
+}
+	.involve-healpal li{
+		list-style:none;
+		border-bottom:1px dotted #ccc;
+		padding-bottom:10px;
+		margin-bottom:10px;
+	}
+	.involve-healpal li a .fa{
+		font-size:18px;
+		margin-right:10px;
+	}
+		.involve-healpal li a{
+			color:#5e5e5e;
+			text-transform:uppercase;
+			font-size:15px;
+		}
+	.involve-healpal .active a{
+		color:#f15922;	
+	}
+	
+	
+/*zaid*/
+
+.comments_z
+{
+	margin:100px 0px;
+}
+.face-block-cont
+{
+	margin-bottom:20px;
+	border-bottom:1px solid #ddd;
+	text-align:center;
+}
+.face-block-cont:last-child { border-bottom:none;}
+.face-block-cont a
+{
+	color:#000;
+}
+.face-block-cont a:hover
+{
+	color:#F37021;
+}
+.face-block-cont h2
+{
+	margin-top:0px;
+	color:#1c1c1c;
+	font-family:'Opensans Light';
+	font-size:24px;
+	
+}
+.face-block-cont .fa-star
+{
+	color:#F37021;
+}
+.face-block-cont p
+{
+	color:#969696;
+	font-size:14px;
+}
+.label_fix label
+{
+	font-weight:normal;
+}
+.text_grey_z
+{
+	color:#8f8f8f;
+}
+.last_z
+{
+	border-bottom:1px solid transparent;
+}
+.btn-custom2
+{
+	color:#FFF;
+	width:200px;
+	margin-bottom:300px !important;
+	background: #fd6a35;
+	background-image: -webkit-linear-gradient(top, #fd6a35, #f25b24);
+	background-image: -moz-linear-gradient(top, #fd6a35, #f25b24);
+	background-image: -ms-linear-gradient(top, #fd6a35, #f25b24);
+	background-image: -o-linear-gradient(top, #fd6a35, #f25b24);
+	background-image: linear-gradient(to bottom, #fd6a35, #f25b24);
+	text-decoration: none;
+}
+.btn-custom2:hover
+{
+	color:#FFF !important;
+	background: #f25b24;
+	background-image: -webkit-linear-gradient(top, #f25b24, #fd6a35);
+	background-image: -moz-linear-gradient(top, #f25b24, #fd6a35);
+	background-image: -ms-linear-gradient(top, #f25b24, #fd6a35);
+	background-image: -o-linear-gradient(top, #f25b24, #fd6a35);
+	background-image: linear-gradient(to bottom, #f25b24, #fd6a35);
+	text-decoration: none;
+}
+
+
+.breast-72-1 { background:url(../../assets/images-breast/breast-72-1.png) no-repeat 0px 0px; width:72px; height:72px; display:inline-block; vertical-align:top; }
+.breast-72-1:hover { background:url(../../assets/images-breast/breast-72-1b.png) no-repeat 0px 0px; }
+.breast-2b, a:hover .breast-2 { background:url(../../assets/images-breast/breast-2b.png) no-repeat 0px 0px; width:68px; height:68px; display:inline-block; vertical-align:top;   }
+.breast-3 { background:url(../../assets/images-breast/breast-3.png) no-repeat 0px 0px; width:69px; height:69px; display:inline-block; vertical-align:top;  }
+a:hover .breast-3, li.active .breast-3 { background:url(../../assets/images-breast/diagnosis-3b.png) no-repeat 0px 0px; }
+.breast-4 { background:url(../../assets/images-breast/breast-4.png) no-repeat 0px 0px; width:68px; height:68px; display:inline-block; vertical-align:top;  }
+a:hover .breast-4, li.active .breast-4 { background:url(../../assets/images-breast/breast-4b.png) no-repeat 0px 0px; }
+.breast-5 { background:url(../../assets/images-breast/breast-5.png) no-repeat 0px 0px; width:69px; height:69px; display:inline-block; vertical-align:top;  }
+a:hover .breast-5, li.active .breast-5 { background:url(../../assets/images-breast/breast-5b.png) no-repeat 0px 0px; }
+.breast-6 { background:url(../../assets/images-breast/breast-6.png) no-repeat 0px 0px; width:68px; height:68px; display:inline-block; vertical-align:top; }
+a:hover .breast-6, li.active .breast-6 { background:url(../../assets/images-breast/breast-6b.png) no-repeat 0px 0px; }
+.breast-7 { background:url(../../assets/images-breast/breast-7.png) no-repeat 0px 0px; width:68px; height:68px; display:inline-block; vertical-align:top; }
+a:hover .breast-7, li.active .breast-7 { background:url(../../assets/images-breast/breast-7b.png) no-repeat 0px 0px; }
+
+
+
+
+
+
+.bre-about-right-icon-1 { background:url(../../assets/images-breast/bre-about-right-icon-1.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-1, li.selected .bre-about-right-icon-1 { background:url(../../assets/images-breast/bre-about-right-icon-1b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-2 { background:url(../../assets/images-breast/bre-about-right-icon-2.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-2, li.selected .bre-about-right-icon-2 { background:url(../../assets/images-breast/bre-about-right-icon-2b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-3 { background:url(../../assets/images-breast/bre-about-right-icon-3.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-3, li.selected .bre-about-right-icon-3 { background:url(../../assets/images-breast/bre-about-right-icon-3b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-4 { background:url(../../assets/images-breast/bre-about-right-icon-4.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-4, li.selected .bre-about-right-icon-4 { background:url(../../assets/images-breast/bre-about-right-icon-4b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-5 { background:url(../../assets/images-breast/bre-about-right-icon-5.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-5, li.selected .bre-about-right-icon-5 { background:url(../../assets/images-breast/bre-about-right-icon-5b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-6 { background:url(../../assets/images-breast/bre-about-right-icon-6.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-6, li.selected .bre-about-right-icon-6  { background:url(../../assets/images-breast/bre-about-right-icon-6b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+
+.breast-2 { background:url(../../assets/images-breast/breast-2.png) no-repeat 0px 0px; width:68px; height:68px; display:inline-block; vertical-align:top;   }
+.breast-6b { background:url(../../assets/images-breast/breast-6b.png) no-repeat 0px 0px; width:68px; height:68px; display:inline-block;   }
+.bre-about-right-icon-7 { background:url(../../assets/images-breast/bre-about-right-icon-7.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-7, li.selected .bre-about-right-icon-7 { background:url(../../assets/images-breast/bre-about-right-icon-7b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-8 { background:url(../../assets/images-breast/bre-about-right-icon-8.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-8, li.selected .bre-about-right-icon-8  { background:url(../../assets/images-breast/bre-about-right-icon-8b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+.bre-about-right-icon-9 { background:url(../../assets/images-breast/bre-about-right-icon-9.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+li:hover .bre-about-right-icon-9, li.selected .bre-about-right-icon-9  { background:url(../../assets/images-breast/bre-about-right-icon-9b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block; }
+
+.diagnosis-breast-1 { background:url(../../assets/images-breast/diagnosis-breast-1.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .diagnosis-breast-1, li.selected .diagnosis-breast-1  { background:url(../../assets/images-breast/diagnosis-breast-1b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.diagnosis-breast-2 { background:url(../../assets/images-breast/diagnosis-breast-2.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .diagnosis-breast-2, li.selected .diagnosis-breast-2  { background:url(../../assets/images-breast/diagnosis-breast-2b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.diagnosis-breast-3 { background:url(../../assets/images-breast/diagnosis-breast-3.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .diagnosis-breast-3, li.selected .diagnosis-breast-3 { background:url(../../assets/images-breast/diagnosis-breast-3b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.diagnosis-breast-4 { background:url(../../assets/images-breast/diagnosis-breast-4.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .diagnosis-breast-4, li.selected .diagnosis-breast-4 { background:url(../../assets/images-breast/diagnosis-breast-4b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.diagnosis-breast-5 { background:url(../../assets/images-breast/diagnosis-breast-5.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .diagnosis-breast-5, li.selected .diagnosis-breast-5 { background:url(../../assets/images-breast/diagnosis-breast-5b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.diagnosis-breast-6 { background:url(../../assets/images-breast/diagnosis-breast-6.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .diagnosis-breast-6, li.selected .diagnosis-breast-6  { background:url(../../assets/images-breast/diagnosis-breast-6b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+
+.prevention-early-1 { background:url(../../assets/images-breast/prevention-early-1.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+a:hover .prevention-early-1, li.selected .prevention-early-1 { background:url(../../assets/images-breast/prevention-early-1b.png) no-repeat 0px 0px;}
+.prevention-early-2 { background:url(../../assets/images-breast/prevention-early-2.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+a:hover .prevention-early-2, li.selected .prevention-early-2 { background:url(../../assets/images-breast/prevention-early-2b.png) no-repeat 0px 0px; }
+.prevention-early-3 { background:url(../../assets/images-breast/prevention-early-3.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+a:hover .prevention-early-3, li.selected .prevention-early-3 { background:url(../../assets/images-breast/prevention-early-3b.png) no-repeat 0px 0px; }
+.prevention-early-4 { background:url(../../assets/images-breast/prevention-early-4.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+a:hover .prevention-early-4, li.selected .prevention-early-4 { background:url(../../assets/images-breast/prevention-early-4b.png) no-repeat 0px 0px; }
+.prevention-early-5 { background:url(../../assets/images-breast/prevention-early-5.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+a:hover .prevention-early-5, li.selected .prevention-early-5 { background:url(../../assets/images-breast/prevention-early-5b.png) no-repeat 0px 0px; }
+
+.treatment-breast-1 { background:url(../../assets/images-breast/treatment-breast-1.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .treatment-breast-1, li.selected .treatment-breast-1 { background:url(../../assets/images-breast/treatment-breast-1b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.treatment-breast-2 { background:url(../../assets/images-breast/treatment-breast-2.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .treatment-breast-2, li.selected .treatment-breast-2 { background:url(../../assets/images-breast/treatment-breast-2b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.treatment-breast-3 { background:url(../../assets/images-breast/treatment-breast-3.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .treatment-breast-3, li.selected .treatment-breast-3 { background:url(../../assets/images-breast/treatment-breast-3b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.treatment-breast-4 { background:url(../../assets/images-breast/treatment-breast-4.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .treatment-breast-4, li.selected .treatment-breast-4 { background:url(../../assets/images-breast/treatment-breast-4b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+.treatment-breast-5 { background:url(../../assets/images-breast/treatment-breast-5.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+li:hover .treatment-breast-5, li.selected .treatment-breast-5 { background:url(../../assets/images-breast/treatment-breast-5b.png) no-repeat 0px 0px; width:102px; height:102px; display:inline-block; }
+
+.nutrition-left-1 { background:url(../../assets/images-breast/nutrition-left-1.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+li:hover .nutrition-left-1, li.selected .nutrition-left-1 { background:url(../../assets/images-breast/nutrition-left-1b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+.nutrition-left-2 { background:url(../../assets/images-breast/nutrition-left-2.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+li:hover .nutrition-left-2, li.selected .nutrition-left-2{ background:url(../../assets/images-breast/nutrition-left-2b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+.nutrition-left-3 { background:url(../../assets/images-breast/nutrition-left-3.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+li:hover .nutrition-left-3, li.selected .nutrition-left-3 { background:url(../../assets/images-breast/nutrition-left-3b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+.nutrition-left-4 { background:url(../../assets/images-breast/nutrition-left-4.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+li:hover .nutrition-left-4, li.selected .nutrition-left-4 { background:url(../../assets/images-breast/nutrition-left-4b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+.nutrition-left-5 { background:url(../../assets/images-breast/nutrition-left-5.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+li:hover .nutrition-left-5, li.selected .nutrition-left-5 { background:url(../../assets/images-breast/nutrition-left-5b.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+.nutrition-left-6 { background:url(../../assets/images-breast/nutrition-left-6.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+li:hover .nutrition-left-6, li.selected .nutrition-left-6 { background:url(../../assets/images-breast/nutrition-left-6bb.png) no-repeat 0px 0px; width:90px; height:90px; display:inline-block;   }
+
+.icon1 { background:url(../../assets/images-breast/icon1.png) no-repeat 0px 0px; width:55px; height:55px; display:inline-block; vertical-align:top; margin:0px 12px 0px 0px; }
+.img-box { border:1px solid #f15922;}
+
+
+.left-gray-box-cont .mytimeline .badge2 { width:25%; }
+.left-gray-box-cont .mytimeline:before { top:7px; left:46px; }
+
+.mytimeline-2:before, .mytimeline-1:before { left:49px !important; top:8px !important; bottom:13px !important; }
+.mytimeline-1 li { margin-bottom:15px !important; }
+.mytimeline-2 li { margin-bottom:22px !important; }
+
+.menu-box-cont .fa-angle-double-right { font-size:24px; color:#f37021; padding-right:5px;}
+ul.menu-box-cont { margin:0px; padding:20px 15px 200px; list-style-type:none; border:1px solid #e2e2e2; }
+ul.menu-box-cont li { display:block; padding:5px 10px 5px; border-bottom:1px dashed #dddddd; }
+ul.menu-box-cont li a { color:#5e5e5e; font-size:20px;font-family:'Opensans Light'; } 
+ul.menu-box-cont li a:hover, ul.menu-box-cont li.active a  { color:#f37021; }
+
+@media all and  (max-width:768px){
+	.inner-left-cont .left-icons2 { margin-top:480px !important; }
+}
+@media all and  (max-width:992px){	
+	
+	
+	.mytimeline .badge3 { margin-right:10px;}
+	.inner-cont .left-icons2 ul li { width:16.667%;}
+	
+	.left-gray-box-cont .mytimeline .badge2 { width:35% }
+	.left-gray-bg .mytimeline .badge2-name { margin:0px; padding-left:10px; width:65%;}
+	.left-gray-box-cont { padding-left:10px; padding-right:10px; }
+	.mytimeline .badge3 { margin:0px; width:30%;}
+	.mytimeline .badge3-name { margin:0px; width:70%; padding-left:10px; }
+	.inner-cont .inner-left-cont .media-heading a { line-height:46px; }
+
+	.breast-2b, .breast-72-1 { background:url(../../assets/images-breast/sml-breast-2b.png) no-repeat 0px 0px; width:46px; height:46px; display:inline-block; vertical-align:top;   }
+	.breast-2 { background:url(../../assets/images-breast/sml-breast-2.png) no-repeat 0px 0px; width:46px; height:46px; display:inline-block; vertical-align:top;   }
+	a:hover .breast-2, li.active .breast-2 { background:url(../../assets/images-breast/sml-breast-2b.png) no-repeat 0px 0px; width:46px; height:46px; display:inline-block; vertical-align:top;  }
+	.breast-3 { background:url(../../assets/images-breast/sml-breast-3.png) no-repeat 0px 0px; width:49px; height:49px; display:inline-block; vertical-align:top;  }
+	a:hover .breast-3, li.active .breast-3 { background:url(../../assets/images-breast/sml-breast-3b.png) no-repeat 0px 0px; width:49px; height:49px; display:inline-block; vertical-align:top;  }
+	.breast-4 { background:url(../../assets/images-breast/sml-breast-4.png) no-repeat 0px 0px; width:48px; height:48px; display:inline-block; vertical-align:top;  }
+	a:hover .breast-4, li.active .breast-4 { background:url(../../assets/images-breast/sml-breast-4b.png) no-repeat 0px 0px; width:48px; height:48px; display:inline-block; vertical-align:top;  }
+	.breast-5 { background:url(../../assets/images-breast/sml-breast-5.png) no-repeat 0px 0px; width:49px; height:49px; display:inline-block; vertical-align:top;  }
+	a:hover .breast-5, li.active .breast-5 { background:url(../../assets/images-breast/sml-breast-5b.png) no-repeat 0px 0px; width:49px; height:49px; display:inline-block; vertical-align:top; }
+	.breast-6 { background:url(../../assets/images-breast/sml-breast-6.png) no-repeat 0px 0px; width:48px; height:48px; display:inline-block; vertical-align:top; }
+	a:hover .breast-6, li.active .breast-6 { background:url(../../assets/images-breast/sml-breast-6b.png) no-repeat 0px 0px; width:48px; height:48px; display:inline-block; vertical-align:top;  }
+	.breast-7 { background:url(../../assets/images-breast/sml-breast-7.png) no-repeat 0px 0px; width:48px; height:48px; display:inline-block; vertical-align:top; }
+	a:hover .breast-7, li.active .breast-7 { background:url(../../assets/images-breast/sml-breast-7b.png) no-repeat 0px 0px; width:48px; height:48px; display:inline-block; vertical-align:top; }
+	
+	.breast-72-1 { background:url(../../assets/images-breast/sml-breast-2.png) no-repeat 0px 0px; width:46px; height:46px; }
+	.breast-72-1:hover  { background:url(../../assets/images-breast/sml-breast-2b.png) no-repeat 0px 0px; width:46px; height:46px; }
+
+}
+
+
+
+
+
+
+@media all and  (max-width:767px){	
+	.inner-left-cont .left-icons2 { margin-top:30px !important; }
+	.head-inner .media-heading a, .head-inner .media-left a { padding-top:10px; }
+	.inner-cont .inner-left-cont, .inner-right-cont { width:100%; padding-left:10px !important; padding-right:10px !important; float:left;display:block; }
+	.inner-cont .inner-left-cont .media-heading { font-size:24px; }
+	.left-gray-box-cont .mytimeline .badge2 { width:30%; }
+	.left-gray-bg .mytimeline .badge2-name { width:70%; }
+	.left-gray-box-cont .mytimeline-1 .badge2, .left-gray-box-cont .mytimeline-2 .badge2 { width:35%; }
+	.left-gray-bg .mytimeline-1 .badge2-name, .left-gray-box-cont .mytimeline-2 .badge2-name { width:65%; }
+
+
+}
+.inner-left-cont .left-icons2 { margin-left:-10px !important; }

@@ -1,0 +1,349 @@
+/*
+Theme Name: Cancer Bootstrap
+Description: A theme built for Oceanbrains
+Author: Mian Zaid Bin Khalid
+Author URI: http://oceanbrains.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+*/
+
+@media (min-width:768px)
+{
+	.new-index .navbar-header{
+		padding:0px;
+	}
+	.new-index .navbar-brand{
+		float:left !important;
+	}
+	.new-index .navbar-nav{
+		margin-top:30px !important;
+	}
+	.new-index .navbar-nav > li:nth-child(3){
+		border-radius:15px;
+		-o-border-radius:15px;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		background-color:#f37021;
+		color:#fff;
+		margin-top:5px;
+	}
+	.new-index .navbar-nav > li:nth-child(3) a{
+		padding:4px 20px !important;
+	}
+	.new-index .navbar-nav > li:nth-child(4){
+		border-radius:15px;
+		-o-border-radius:15px;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		background-color:#a2a2a2;
+		color:#fff;
+		margin:5px 0 0 10px;
+		padding:10px 0 15px 0;
+	}
+	.new-index .navbar-nav > li:nth-child(4) a{
+		padding:4px 20px !important;
+	}
+	
+	.new-index .jumbotron{
+		background-color:#f37021 !important;
+		text-align:center;
+		color:#fff;
+		border-radius:0px !important;
+		-o-border-radius:0px !important;
+		-webkit-border-radius:0px !important;
+		-moz-border-radius:0px !important;
+	}
+	.new-index .jumbotron h2{
+		margin-bottom:15px;
+		color:#fff;
+		font-weight:bold;
+	}
+	.new-index .jumbotron h4{
+		color:#fff;
+	}
+	.new-index .index-content .block p{
+		width:70%;
+	}
+	.new-index .index-content .block2{
+		width:70%;
+	}
+	.new-index .index-content .block2 p{
+		width:70%;
+	}
+	.new-index .block2-inner{
+		width:80%;
+	}
+		.new-index .block2-inner .media-object{
+			width:70px;
+		}
+	.new-index .block3 .block3-inner{
+		width:70%;
+	}
+	.new-index .block3 .left{
+		float:left;
+		margin-right:80px;
+	}
+	.new-index .footer-top{
+		text-align:left;
+	}
+/************************************************************************************************************************
+																breast cancer start	***************************************************************************************************************************************************/
+	
+	/********left-orange start***********/
+	.inner-left-cont .left-icons2{
+		margin-top:200px;
+	}
+		.inner-left-cont .left-icons2 ul li{
+			width:15%;
+		}
+			.inner-left-cont .left-icons2 ul li img{
+				margin:0 auto;
+			}
+	
+	/********left-orange end***********/
+	
+	
+	/********em start***********/	
+	.inner-cont em{
+		position: absolute;
+		z-index: 0;
+		top: 60px;
+		right: -42.7%; /* ok */
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		background: #ffffff;
+	}
+	#em{
+		display:inline-block;
+	}
+	#em2{
+		position: absolute;
+		z-index: 0;
+		top: 583px;
+		right: 0%;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		background: #ffffff;
+	}
+	#em2{
+		top:60px;
+		right: -34.7%; /* ok */
+	}
+	/********em end***********/
+	
+	/*.numbers-b em{
+		right: -34.7%;
+	}*/
+	.inner-cont .inner-left-cont{
+		padding:30px 10px 20px;
+	}
+	.inner-cont .inner-left-cont .media-heading{
+		font-size:32px; font-family: 'Opensans Light';
+	}
+	.numbers-b .left .mytimeline{
+		margin-left:0px;
+	}
+	.numbers-b .left .mytimeline .badge2 {
+		width: 28%;
+	}
+	.numbers-b .left .mytimeline .badge3 {
+		width: 28%;
+	}
+	.numbers-b .left .mytimeline .badge2-name{
+		width:65%;	
+	}
+	.numbers-b .left .mytimeline .badge3-name{
+		width:65%;	
+	}
+	.mytimeline .badge2-name{
+		font-size:16px;
+		/*width:255px;*/
+	}
+	.mytimeline .badge3-name{
+		font-size:16px;
+		/*width:255px;*/
+	}
+	.mytimeline:before{
+		top: 0;
+		bottom: 6px;
+		position: absolute;
+		content: " ";
+		width: 4px;
+		background-color: #d1d1d1;
+		left:43px;
+		margin-left: -1.5px;
+		z-index:-1;
+	}
+	.mytimeline li{
+		margin-bottom:30px;
+	}
+	/*.inner-cont .right{
+		padding:70px 0 0 15px;
+	}*/
+	.numbers-b .right{
+		padding:30px 0 0 20px;
+		color:#8e8e8d;
+	}
+	.left-orange .left-icons2{
+		margin-top:450px;
+	}
+		.left-orange .left-icons2 ul li{
+			width:16%;
+			text-align:center;
+		}
+	.five-col{
+		width:20%;
+	}
+	
+	
+	.numbers-b em{
+		display:block;
+	}
+	#em2{
+		display:block;
+	}
+	
+	.numbers-b .next-section .left {
+		width:72%;
+	}
+	.numbers-b .next-section .right .fa {
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		width: 30px;
+		font-size:18px;
+	}
+	.numbers-b .next-section h2 {
+		font-size: 22px;
+	}
+	
+	.inner-cont .left-icons2 ul li {
+		text-align: center;
+		width: 16.667%;
+	}
+	.face_block_z
+	{
+		text-align:left;
+	}
+	/************breast cancer end***********/
+}
+@media (min-width:992px)
+{
+	.new-index .block2-inner .media-object{
+		width:100px;
+	}
+	.mytimeline .badge2-name{
+		font-size:18px;
+		margin-top:30px;
+	}
+	.mytimeline .badge3-name{
+		font-size:18px;
+	}
+	.mytimeline .badge2 img{
+		width:90px;
+		height:90px;
+	}
+	.mytimeline .badge3 img{
+		width:90px;
+		height:90px;
+	}
+	.numbers-b .left .mytimeline .badge2 {
+		width: 28%;
+	}
+	.numbers-b .left .mytimeline .badge3 {
+		width: 28%;
+	}
+	.inner-left-cont .left-icons2{
+		margin-top:500px;
+	}
+	
+	
+	.numbers-b .next-section .left {
+		width:72%;
+	}
+	.numbers-b .next-section h2{
+		font-size:30px;	
+	}
+	.numbers-b .next-section .right .fa {
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		width: 50px;
+		font-size:22px;
+	}
+	/*.inner-cont .left-icons2{
+		margin-top:475px;
+	}*/
+	.inner-cont .left .media-object{
+		width:auto;
+	}
+	
+}
+
+@media (min-width:1200px)
+{
+	.mytimeline:before{
+		left: 43px;
+	}
+	.inner-cont .left-icons2 ul li{
+		/*width:auto;*/
+	}
+	.inner-cont .left-icons2 ul li img{
+		width:60px;
+	}
+	#em2{
+		right: -34.7%; /* ok */
+	}
+	#em{
+		right: -43%; /* ok */
+	}
+}
+@media (min-width:1300px)
+{
+	#em2{
+		right: -35.7%; /* ok */
+	}
+}
+
+@media (min-width:1400px)
+{
+	#em2{
+		right: -36.3%; /* ok */
+	}
+	#em{
+		right: -44%;
+	}
+}
+@media (min-width:1500px)
+{
+	#em2{
+		right: -37.3%; /* ok */
+	}
+	#em{
+		right: -44.8%; /* ok */
+	}
+}
+@media (min-width:1600px)
+{
+	#em2{
+		right: -38.3%; /* ok */
+	}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+	.inner-cont .inner-left-cont .media-heading { font-size:28px; }
+}
+@media all and  (max-width:767px){
+	.mytimeline:before{ top:0px; bottom:6px; position:absolute; content: " "; width:4px; background-color:#d1d1d1; left:43px; margin-left:-1.5px; z-index:-1;}
+	.mytimeline .badge3-name { width:65%; }
+	.mytimeline .badge3 { width:35%; margin:0px; padding-right:20px;}
+	.inner-right-cont { padding-bottom:60px; }
+
+}
+
+
+
+
+

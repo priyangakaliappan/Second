@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Opensans Regular';
+    src: url('../font/OpenSans-Regular-webfont.eot');
+    src: url('../font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.modal-backdrop { background-color:#000;}
+
+.modal-backdrop { top:0px !important;}
+#myModal.profile_popup .modal-dialog { max-width:600px; width:100%;}
+#myModal.profile_popup .profile-box-bg { background:none; box-shadow:none;}
+#myModal.profile_popup .modal-content h1 { font-size:22px; margin:0px; padding:0px; line-height: 45px;}
+#myModal.profile_popup .list-content { padding:0px;}
+#myModal.profile_popup .list-content ul li { min-height: 45px; line-height:15px; padding:0px 0px !important; border:1px solid #dbdbdb; margin:10px 0px 0px; background:#67c4f0; font-family: 'Opensans Regular';}
+#myModal.profile_popup .list-content ul li.active, #myModal.profile_popup .list-content ul li:hover {background: #fff;}
+#myModal.profile_popup .selectedLabels { font-size:14px; padding:5px 10px; font-family: 'Opensans Regular'; text-align: left;}
+#myModal.profile_popup .profile-box-bg p { font-size:14px !important; padding:0px;}
+#myModal.profile_popup .mar-bot-30 { margin-bottom:0px !important;}
+#myModal.profile_popup .icon-box-top { margin-bottom:0px;}
+#myModal.profile_popup .profile-box-bg { padding-bottom:35px; margin-bottom:0px;	}
+#myModal.profile_popup #NEXT {background:#67c4f0; border:1px solid #67c4f0; font-family: 'Opensans Regular'; height:32px; line-height: 23px; display:inline-block; padding:0px 10px; text-align:center; width:100%; max-width:75px; border-radius:5px;
+color:#fff; font-size:14px; font-weight:normal; }
+
+#myModal.profile_popup .box-content2 { width:138px; margin:0px; }
+#myModal.profile_popup .box-content2-bg { background:#67c4f0; height:150px; }
+#myModal.profile_popup .box-content2-bg.active, #myModal.profile_popup .box-content2-bg:HOVER { background:#fff;}
+#myModal.profile_popup .profile-box-bg  h1 { text-align:center; margin-bottom:20px;}
+#myModal.profile_popup .box-content2-bg h3 { font-size:17px; line-height: 25px; height:147px;}
+
+.pad-top-0 { padding-top:0px !important;}
+.profile-box-image { width:93px; height:93px; display:inline-block; padding:0px;}
+.profile-box-image img { max-width:100%; max-height:100%;}
+.img-border { max-width:100px; height:96px; display:inline-block; } 
+/* .img-border.img-
+ { max-width:100px; height:97px; display:inline-block; }
+.img-border.img-bor2 { max-width:100px; height:99px; display:inline-block; }
+.img-border.img-bor3 { max-width:100px; height:98px; display:inline-block; } */
+/* #myModal.profile_popup .profile-box-bg .box-content2 { width:119px;} */
+
+#myModal.profile_popup .profile-box-bg.highest-box { padding:80px 0px 60px 0px; }
+#myModal.profile_popup .profile-box-bg.highest-box .box-content2 { width:158px;}
+#myModal.profile_popup .profile-box-bg .box-content2 a:hover, #myModal.profile_popup .profile-box-bg .box-content2 a:focus, #myModal.profile_popup .profile-box-bg .box-content2 a:VISITED {text-decoration: none; outline-style: none;}
+#myModal.profile_popup .profile-box-bg.general-text { padding:80px 0px 60px 0px; }
+#myModal.profile_popup .profile-box-bg.general-text .box-content2 { width:158px;}
+#myModal.profile_popup .profile-box-bg.general-text h1 { line-height:30px; }
+#myModal.profile_popup .profile-box-bg.general-text h2 { font-size:20px; line-height: 25px; font-family:'Opensans Light', sans-serif; padding-top: 0px;}
+#myModal.profile_popup .profile-box-bg.highest-box h2  {  font-size:20px; line-height: 25px; font-family:'Opensans Light'; }
+
+#myModal.profile_popup .profile-box-bg .note-text {line-height: 22px;}
+#myModal.profile_popup .profile-box-bg.general-text textarea {
+	height:200px; margin:0px auto 25px; font-size:17px; line-height: 25px;
+}
+
+.blue-btn{
+	font-size:22px; color:#ffffff; height:60px; line-height:60px; text-transform:capitalize; display:inline-block; vertical-align:top; border-radius:2px; padding:0px 20px; margin:0px 0px 10px; font-family:'Opensans Semibold', sans-serif;  
+	border:1px solid #5bbbeb; background: #5bbbeb;
+	background: -moz-linear-gradient(top, #6fc9ee 0%, #5bbbeb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6fc9ee), color-stop(100%,#5bbbeb));
+	background: -webkit-linear-gradient(top, #6fc9ee 0%,#5bbbeb 100%);
+	background: -o-linear-gradient(top, #6fc9ee 0%,#5bbbeb 100%);
+	background: -ms-linear-gradient(top, #6fc9ee 0%,#5bbbeb 100%);
+	background: linear-gradient(to bottom, #6fc9ee 0%,#5bbbeb 100%);
+}
+.blue-btn:hover { color:#303030; background: #fff; border:1px solid #d7d7d7; }
+#myModal.profile_popup .list-content ul li  a { font-size:14px; font-family: 'Opensans Regular'; padding: 10px 10px; font-weight: 600;}
+#myModal.profile_popup .profile-box-bg .multiple-text { margin:25px 0px 25px;}
+#myModal.profile_popup .date_picker { width:65%; font-size:17px;}
+#myModal.profile_popup  .dob-box {padding-bottom: 0px;}
+.mar-bot-20 { margin-bottom:20px;}
+ #myModal.profile_popup #diagnosis { height:45px; color:#5a5a5a;  font-size:17px; }
+  #myModal.profile_popup .text-box1,   #myModal.profile_popup .textbox {height:45px; color:#5a5a5a;  font-size:17px;}
+	
+.gender-img .img-border { max-width:100%; height:auto; display:inline-block; } 
+#myModal.profile_popup  .p-pink-text { font-size:30px; margin:21px 0px 0px;}
+#myModal.profile_popup .p-blue-text { font-size:30px;}
+
+/* 23.3.2016 new changes
+--------------------------------------------------------------------------------------------------------------- */
+.upload-photo-btn.upload-browse-btn { font-size:22px; height:50px; line-height:29px; margin:30px 0px 36px; padding:8px 0px 0px 36px;}
+.upload-photo-btn.upload-browse-btn:hover {background:#fff; color:#000 !important;}
+.browse-text { font-size:18px; line-height: 22px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

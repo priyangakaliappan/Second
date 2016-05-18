@@ -1,0 +1,72 @@
+
+.progress {
+	margin: 5px 0;
+	height: 15px;
+	border-radius: 3px;
+	background: #545A74;
+}
+#wrapper1 {
+	margin: 100px auto;
+	width: 50%;
+}
+
+.formRow {
+	overflow: auto;
+	border-bottom: 1px #bcbcbc solid;
+	padding: 5px 0;
+	max-width: 100%;
+}
+
+.formRow label {
+	padding: 4px;
+	margin: 0 3px 0 0;
+	border-right: 1px #bcbcbc solid;
+}
+
+
+/* Drag & Drop file uploading */
+
+.droppable {
+	border: #121a3f 0px solid;
+	border-radius: 15px;
+	background: #f15922;
+	color: white;
+	margin: 10px;
+	clear: both;
+	text-align: center;
+}
+.droppable.hover {
+	background: #f15922;
+}
+
+.uploadList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.uploadItem {
+	overflow: hidden;
+	border-bottom: #BCBCBC 1px solid;
+	margin: 0 10px;
+	padding: 3px;
+}
+
+.uploadItem span {
+	overflow: hidden;
+	width: 420px;
+	float: left;
+	display: block;
+	font-size: 18px;
+}
+a.addInputRow,
+a.delInputRow,
+.uploadItem a {
+	display: inline-block;
+	background: url("../assets/image/add.png") no-repeat;
+	height: 16px;
+	width: 16px;
+	text-indent: -999px;
+	margin-top:25px;
+	margin-left:20px;
+}
